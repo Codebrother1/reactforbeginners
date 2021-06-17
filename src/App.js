@@ -1,8 +1,11 @@
-import Greet from "./components/Greet"
 import './App.css';
-import Welcome from "./components/Welcome";
+// import Welcome from "./components/Welcome";
 // import Hello from "./components/Hello"
 // import Counter from "./components/Counter"
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import Greet from "./components/Greet"
+import EventBind from './components/EventBind'
 
 function App() {
   return (
@@ -11,14 +14,17 @@ function App() {
       {/* <Greet name="Clark"  heroName="Superman"> */}
         {/* <button>Action</button> */}
      
-        <Greet name="Diana"  heroName="Wonder Women"/>
+        {/* <Greet name="Diana"  heroName="Wonder Women"/> */}
       
-      <Welcome name="Bruce" heroName="Batman"/>
+      {/* <Welcome name="Bruce" heroName="Batman"/> */}
       {/* <Welcome name="Clark"  heroName="Superman"/> */}
       {/* <Welcome name="Diana"  heroName="Wonder Women"/> */}
       {/* <Hello/> */}
       {/* <Message/> */}
       {/* <Counter/> */}
+      {/* <FunctionClick/> */}
+      {/* <ClassClick/> */}
+      <EventBind/>
     </div>
   );
 }
