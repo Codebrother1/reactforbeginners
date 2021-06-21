@@ -5,7 +5,8 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Greet from "./components/Greet"
-import EventBind from './components/EventBind'
+// import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Counter/> */}
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      <ParentComponent/>
     </div>
   );
 }
